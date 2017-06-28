@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		450F21B41F043D4C0054AB16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450F21B31F043D4C0054AB16 /* AppDelegate.swift */; };
+		450F21B61F043D4C0054AB16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450F21B51F043D4C0054AB16 /* ViewController.swift */; };
+		450F21B91F043D4D0054AB16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450F21B71F043D4D0054AB16 /* Main.storyboard */; };
+		450F21BB1F043D4D0054AB16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 450F21BA1F043D4D0054AB16 /* Assets.xcassets */; };
+		450F21BE1F043D4D0054AB16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450F21BC1F043D4D0054AB16 /* LaunchScreen.storyboard */; };
+		450F21C91F043D4D0054AB16 /* BeCareBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450F21C81F043D4D0054AB16 /* BeCareBotTests.swift */; };
+		450F21D41F043D4D0054AB16 /* BeCareBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450F21D31F043D4D0054AB16 /* BeCareBotUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		450F21C51F043D4D0054AB16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450F21A81F043D4C0054AB16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 450F21AF1F043D4C0054AB16;
+			remoteInfo = BeCareBot;
+		};
+		450F21D01F043D4D0054AB16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 450F21A81F043D4C0054AB16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 450F21AF1F043D4C0054AB16;
+			remoteInfo = BeCareBot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		450F21B01F043D4C0054AB16 /* BeCareBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeCareBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		450F21B31F043D4C0054AB16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		450F21B51F043D4C0054AB16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		450F21B81F043D4D0054AB16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		450F21BA1F043D4D0054AB16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		450F21BD1F043D4D0054AB16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		450F21BF1F043D4D0054AB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		450F21C41F043D4D0054AB16 /* BeCareBotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeCareBotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		450F21C81F043D4D0054AB16 /* BeCareBotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeCareBotTests.swift; sourceTree = "<group>"; };
+		450F21CA1F043D4D0054AB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		450F21CF1F043D4D0054AB16 /* BeCareBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeCareBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		450F21D31F043D4D0054AB16 /* BeCareBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeCareBotUITests.swift; sourceTree = "<group>"; };
+		450F21D51F043D4D0054AB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		450F21AD1F043D4C0054AB16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450F21C11F043D4D0054AB16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450F21CC1F043D4D0054AB16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		450F21A71F043D4C0054AB16 = {
+			isa = PBXGroup;
+			children = (
+				450F21B21F043D4C0054AB16 /* BeCareBot */,
+				450F21C71F043D4D0054AB16 /* BeCareBotTests */,
+				450F21D21F043D4D0054AB16 /* BeCareBotUITests */,
+				450F21B11F043D4C0054AB16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		450F21B11F043D4C0054AB16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				450F21B01F043D4C0054AB16 /* BeCareBot.app */,
+				450F21C41F043D4D0054AB16 /* BeCareBotTests.xctest */,
+				450F21CF1F043D4D0054AB16 /* BeCareBotUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		450F21B21F043D4C0054AB16 /* BeCareBot */ = {
+			isa = PBXGroup;
+			children = (
+				450F21B31F043D4C0054AB16 /* AppDelegate.swift */,
+				450F21B51F043D4C0054AB16 /* ViewController.swift */,
+				450F21B71F043D4D0054AB16 /* Main.storyboard */,
+				450F21BA1F043D4D0054AB16 /* Assets.xcassets */,
+				450F21BC1F043D4D0054AB16 /* LaunchScreen.storyboard */,
+				450F21BF1F043D4D0054AB16 /* Info.plist */,
+			);
+			path = BeCareBot;
+			sourceTree = "<group>";
+		};
+		450F21C71F043D4D0054AB16 /* BeCareBotTests */ = {
+			isa = PBXGroup;
+			children = (
+				450F21C81F043D4D0054AB16 /* BeCareBotTests.swift */,
+				450F21CA1F043D4D0054AB16 /* Info.plist */,
+			);
+			path = BeCareBotTests;
+			sourceTree = "<group>";
+		};
+		450F21D21F043D4D0054AB16 /* BeCareBotUITests */ = {
+			isa = PBXGroup;
+			children = (
+				450F21D31F043D4D0054AB16 /* BeCareBotUITests.swift */,
+				450F21D51F043D4D0054AB16 /* Info.plist */,
+			);
+			path = BeCareBotUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		450F21AF1F043D4C0054AB16 /* BeCareBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 450F21D81F043D4D0054AB16 /* Build configuration list for PBXNativeTarget "BeCareBot" */;
+			buildPhases = (
+				450F21AC1F043D4C0054AB16 /* Sources */,
+				450F21AD1F043D4C0054AB16 /* Frameworks */,
+				450F21AE1F043D4C0054AB16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BeCareBot;
+			productName = BeCareBot;
+			productReference = 450F21B01F043D4C0054AB16 /* BeCareBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		450F21C31F043D4D0054AB16 /* BeCareBotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 450F21DB1F043D4D0054AB16 /* Build configuration list for PBXNativeTarget "BeCareBotTests" */;
+			buildPhases = (
+				450F21C01F043D4D0054AB16 /* Sources */,
+				450F21C11F043D4D0054AB16 /* Frameworks */,
+				450F21C21F043D4D0054AB16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				450F21C61F043D4D0054AB16 /* PBXTargetDependency */,
+			);
+			name = BeCareBotTests;
+			productName = BeCareBotTests;
+			productReference = 450F21C41F043D4D0054AB16 /* BeCareBotTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		450F21CE1F043D4D0054AB16 /* BeCareBotUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 450F21DE1F043D4D0054AB16 /* Build configuration list for PBXNativeTarget "BeCareBotUITests" */;
+			buildPhases = (
+				450F21CB1F043D4D0054AB16 /* Sources */,
+				450F21CC1F043D4D0054AB16 /* Frameworks */,
+				450F21CD1F043D4D0054AB16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				450F21D11F043D4D0054AB16 /* PBXTargetDependency */,
+			);
+			name = BeCareBotUITests;
+			productName = BeCareBotUITests;
+			productReference = 450F21CF1F043D4D0054AB16 /* BeCareBotUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		450F21A81F043D4C0054AB16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = BeCare;
+				TargetAttributes = {
+					450F21AF1F043D4C0054AB16 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					450F21C31F043D4D0054AB16 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 450F21AF1F043D4C0054AB16;
+					};
+					450F21CE1F043D4D0054AB16 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 450F21AF1F043D4C0054AB16;
+					};
+				};
+			};
+			buildConfigurationList = 450F21AB1F043D4C0054AB16 /* Build configuration list for PBXProject "BeCareBot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 450F21A71F043D4C0054AB16;
+			productRefGroup = 450F21B11F043D4C0054AB16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				450F21AF1F043D4C0054AB16 /* BeCareBot */,
+				450F21C31F043D4D0054AB16 /* BeCareBotTests */,
+				450F21CE1F043D4D0054AB16 /* BeCareBotUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		450F21AE1F043D4C0054AB16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450F21BE1F043D4D0054AB16 /* LaunchScreen.storyboard in Resources */,
+				450F21BB1F043D4D0054AB16 /* Assets.xcassets in Resources */,
+				450F21B91F043D4D0054AB16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450F21C21F043D4D0054AB16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450F21CD1F043D4D0054AB16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		450F21AC1F043D4C0054AB16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450F21B61F043D4C0054AB16 /* ViewController.swift in Sources */,
+				450F21B41F043D4C0054AB16 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450F21C01F043D4D0054AB16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450F21C91F043D4D0054AB16 /* BeCareBotTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		450F21CB1F043D4D0054AB16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				450F21D41F043D4D0054AB16 /* BeCareBotUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		450F21C61F043D4D0054AB16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 450F21AF1F043D4C0054AB16 /* BeCareBot */;
+			targetProxy = 450F21C51F043D4D0054AB16 /* PBXContainerItemProxy */;
+		};
+		450F21D11F043D4D0054AB16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 450F21AF1F043D4C0054AB16 /* BeCareBot */;
+			targetProxy = 450F21D01F043D4D0054AB16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		450F21B71F043D4D0054AB16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				450F21B81F043D4D0054AB16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		450F21BC1F043D4D0054AB16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				450F21BD1F043D4D0054AB16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		450F21D61F043D4D0054AB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		450F21D71F043D4D0054AB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		450F21D91F043D4D0054AB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeCareBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BeCare.BeCareBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		450F21DA1F043D4D0054AB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BeCareBot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BeCare.BeCareBot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		450F21DC1F043D4D0054AB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeCareBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BeCare.BeCareBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeCareBot.app/BeCareBot";
+			};
+			name = Debug;
+		};
+		450F21DD1F043D4D0054AB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BeCareBotTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BeCare.BeCareBotTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeCareBot.app/BeCareBot";
+			};
+			name = Release;
+		};
+		450F21DF1F043D4D0054AB16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BeCareBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BeCare.BeCareBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BeCareBot;
+			};
+			name = Debug;
+		};
+		450F21E01F043D4D0054AB16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BeCareBotUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BeCare.BeCareBotUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BeCareBot;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		450F21AB1F043D4C0054AB16 /* Build configuration list for PBXProject "BeCareBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450F21D61F043D4D0054AB16 /* Debug */,
+				450F21D71F043D4D0054AB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		450F21D81F043D4D0054AB16 /* Build configuration list for PBXNativeTarget "BeCareBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450F21D91F043D4D0054AB16 /* Debug */,
+				450F21DA1F043D4D0054AB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		450F21DB1F043D4D0054AB16 /* Build configuration list for PBXNativeTarget "BeCareBotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450F21DC1F043D4D0054AB16 /* Debug */,
+				450F21DD1F043D4D0054AB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		450F21DE1F043D4D0054AB16 /* Build configuration list for PBXNativeTarget "BeCareBotUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				450F21DF1F043D4D0054AB16 /* Debug */,
+				450F21E01F043D4D0054AB16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 450F21A81F043D4C0054AB16 /* Project object */;
+}
