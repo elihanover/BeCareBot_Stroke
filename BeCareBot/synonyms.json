@@ -1,0 +1,7 @@
+{
+	"yes": ["yea", "ok", "sure", "please", "of course", "indeed", "yeah", "yup", "si", "oui", "why not", "that would be great", "that'd be great"],
+	"no": ["nope", "nah", "negative", "negatory", "never", "no thanks", "please don't"],
+	"aphasia": ["speech problems", "trouble speaking"],
+	"depression": ["depressed", "depress"],
+	"coma": ["comatose"]
+}

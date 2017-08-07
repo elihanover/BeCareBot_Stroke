@@ -1,0 +1,166 @@
+{
+
+	"home": {
+		"info": "",
+		"prompt": "What would you like to know about?",
+		"keywords": ["aphasia", "risk", "depression", "coma"],
+		"outlets": ["aphasia", "stroke_risk", "depression", "coma"]
+	},
+	"whatelse": {
+		"info": "",
+		"prompt": "What else would you like to know about?",
+		"keywords": ["aphasia", "risk", "depression"],
+		"outlets": ["aphasia", "stroke_risk", "depression"]
+	},
+
+
+
+	"aphasia": {
+		"info": "The brain is divided into two sides called hemispheres. Each side controls different body functions. In most people, the left side of the brain controls language skills. Aphasia is damage to the language area from a stroke, traumatic brain injury (TBI) or tumor. Aphasia can affect all forms of communication, including speaking, understanding, reading and writing. Not all language areas may be affected the same way. For example, one person with aphasia may find it easier to read than talk, while another may find it easier to write than read. Aphasia can be temporary or permanent.",
+		"prompt": "Would you like to know about the types of aphasia?",
+		"keywords": ["yes", "no"],
+		"outlets": ["aphasia.types", "whatelse"]
+	},
+	"aphasia.types": {
+		"info": "The two main types of aphasia are non-fluent aphasia and fluent aphasia.\\n\\nNon-Fluent AphasiaThe most common problem of non-fluent aphasia is word choice. A person with non-fluent aphasia may sound hesitant while searching for the right word to say. It can be frustrating for the person affected because he or she usually understands better than he or she is able to express their ideas. Attempts to find the right word may or may not be successful. The person may only be able to speak in single words, short phrases or parts of sentences. Sometimes the person may not be able to talk. \\n\\nFluent Aphasia\\nA person with fluent aphasia does not have trouble talking or think there is a problem with word choice. However, the words spoken may be nonsense or real words that are used incorrectly. The person with fluent aphasia may be unaware that speech is not meaningful. It may lead to frustration and anger toward the listener for not understanding what he or she wants to say.",
+		"prompt": "Would you like to hear about speech problems associated with aphasia?",
+		"keywords": ["yes", "no"],
+		"outlets": ["aphasia.speechproblems", "whatelse"]
+	},
+	"aphasia.speechproblems": {
+		"info": "Word or Sound Changes\\nThere may be sound or word changes that:\\nHave no meaning (\"lat\" instead of \"bat\")\\nChange the meaning (\"mate\" instead of \"date\")\\nAre unrelated to the word intended (\"table\" instead of \"map\")\\nAre closely related to the word intended (\"ladle\" instead of \"spoon\").\\nYou may also hear the term \"paraphasic errors\" to identify these behaviors.\\n\\nRepetition\\nThis refers to repeated words, phrases, sentences or ideas. The person may have trouble going from one thought to the next. For example, when asked the question \"What do you drive?\" the person may answer \"car\" and then continue to answer \"car\" for the next several responses. You may also hear the term \"perseveration\" to explain this behavior.\\n\\nNaming Problems\\nA person may have problems naming common objects that he/she sees. The person usually knows what the object is and how it is used, but is unable to say the name of it.\\n\\nEchoing\\nThe person may repeat or \"echo\" word-for-word what someone has said. It is also known as \"echolalia\".",
+		"prompt": "Would you like to find out how to help someone with aphasia?",
+		"keywords": ["yes", "no"],
+		"outlets": ["aphasia.howtohelp", "whatelse"]
+	},
+	"aphasia.howtohelp": {
+		"info": "Ways to Help Someone with Aphasia\\nTreat the person as an adult. Do not use \"baby-talk,\" talk louder than normal, or talk about the person as if he/she is not there. Use materials that are of interest and familiar to the person.\\nRemove items that can interfere with communication or are distracting.\\nFor example, turn off the TV when talking.\\nHelp the person to communicate clearly. Use a communication board that has pictures of objects. The person can point to show their needs or it can be used to connect thoughts and correct word choices.\\n- When giving directions, break long directions into short and simple parts. Allow extra time for the person to respond.\\n- Speak slowly, pause between words and use simple phrases. Emphasize words that have the most important meaning.\\n- Only ask one question at a time, to avoid confusion. Yes and no questions may be helpful.\\n- Provide sentences for the person to complete, such as \"I want a drink of ______.\"\\n- Provide word choices to help the person find the right word.\\n- If the person is able, encourage description to help find the right word. You may say, \"If you can’t think of the name of the object, tell me something about it.\"\\nDo not pretend to understand when you do not! Confirm what has been said and tell the person at what point you stopped understanding.\\nYour speech language pathologist (SLP) can give you additional activities and tip ideas.",
+		"prompt": "",
+		"keywords": [],
+		"outlets": ["whatelse"]
+	},
+
+	
+	"stroke_risk": {
+		"info": "Everyone has some stroke risk. Risk factors are traits or life style habits that increase a person's chances of having a stroke. A few stroke risk factors cannot be changed:\\n• Over age 55\\n• Male\\n• African American\\n• Have diabetes\\n• Have a family history of stroke\\nIf you have one of these risk factors, you need to learn about the lifestyle and medical risk factors you can change or control to prevent astroke. ",
+		"prompt": "Can I tell you about the lifestyle risk factors?",
+		"keywords": ["yes", "no"],
+		"outlets": ["stroke_risk.lifestylerisk", "whatelse"]
+	},
+	"stroke_risk.lifestylerisk": {
+		"info": "Life Style Risk Factors\\n• Smoking\\n• Being overweight\\n• Drinking too much alcohol ",
+		"prompt": "Would you like to know the medical risk factors?",
+		"keywords": ["yes", "no"],
+		"outlets": ["stroke_risk.medicalrisk", "whatelse"]
+	},
+	"stroke_risk.medicalrisk": {
+		"info": "Medical Risk Factors\\n• Previous stroke\\n• Previous transient ischemic attack or TIA\\n• High cholesterol\\n• High blood pressure\\n• Heart disease\\n• Atrial fibrillation\\n• Carotid artery disease",
+		"prompt": "Do you want to know some of the stroke prevention guidelines?",
+		"keywords": ["yes", "no"],
+		"outlets": ["stroke_risk.prevention", "whatelse"]
+	},
+	"stroke_risk.prevention": {
+		"info": "The National Stroke Association has guidelines to control your risk of stroke.\\n• Know your blood pressure. High blood pressure is a leading cause of stroke. If your blood pressure is high, work with your doctor to keep it under control.\\n   - Have your blood pressure checked at least one time each year and more often if you have a history of high blood pressure.\\n   - See your doctor if the higher number (your systolic blood pressure) is often over 120 or if the lower number (your diastolic blood pressure) is often over 80.\\n• Find out if you have atrial fibrillation, also called AF or atrial fib. If you have AF, work with your doctor to manage it.\\n   - Atrial fibrillation can cause blood to collect in the chambers of your heart. This blood can form clots and cause a stroke.\\n   - Your doctor can detect AF by carefully checking your pulse.\\n• If you smoke or use other tobacco products, stop. Smoking doubles the risk for stroke. If you stop smoking today, your risk for stroke will begin to decrease.\\n• If you drink alcohol, limit the amount.\\n   - Drinking up to two alcoholic drinks each day may lower your risk for stroke, provided that there is no other medical reason you should avoid alcohol.\\n   - Alcohol is a drug and it can interact with other drugs you are taking.\\n   - Alcohol is harmful if taken in large doses.\\n   - If you don't drink, don't start.\\n• Know your cholesterol number. If your level if over 200, work with your doctor to control it.\\n   - Lowering your cholesterol may reduce your risk for stroke.\\n   - High cholesterol can increase stroke risk by putting you at greater risk of heart disease. \\n   - Often high cholesterol can be controlled with diet and exercise but some people may need to take medicine.\\n• If you have diabetes, follow your doctor's recommendations to control your diabetes. Having diabetes puts you at an increased risk for stroke.\\n• Include exercise in your daily routine. A brisk walk, swim or other exercise activity for as little as 30 minutes a day can improve your health in many ways, and may reduce your risk for stroke.\\n• Eat a lower sodium (salt), lower fat diet. By cutting down on sodium and fat in your diet, you may be able to lower your blood pressure and your risk for stroke.\\n• Ask your doctor if you have circulation problems. If so, work with your doctor to control them.\\n   - Fatty deposits can block the arteries that carry blood from your heart to your brain. This kind of blockage can cause stroke.\\n   - Sickle cell disease, severe anemia, or other diseases can cause stroke if left untreated.\\n• Call 911 if you have any stroke signs:\\n   - Sudden numbness or weakness of face, arm or leg, often on just one side of the body\\n   - Sudden confusion, trouble speaking or understanding\\n   - Sudden trouble seeing in one or both eyes\\n   - Sudden trouble walking\\n   - Sudden dizziness or loss of balance or coordination\\n   - Sudden severe headache with no known cause\\n\\nIf you have questions about your stroke risk, please ask your doctor or nurse.",
+		"prompt": "",
+		"keywords": [],
+		"outlets": ["whatelse"]
+	},
+
+
+	"depression": {
+		"info": "Grief and feelings of loss are common after many illnesses. Dealing with life after a stroke involves adjustment. As you or a loved one learns to deal with changes in your lives, you may have feelings of sadness, anxiety, frustration or anger. When sadness changes into depression, it is important to seek help.\\n\\nDepression is a common emotional reaction to stroke. Sometimes, depression is caused by the physical damage that stroke causes in the brain. Depression can start right after a stroke, during rehabilitation, or after you go home. Some studies suggest that people who have had a stroke are at greatest risk for depression 6 months to 24 months after they leave the hospital.\\n\\nDepression can hamper recovery and rehabilitation. Talk to your doctor if you are feeling depressed or sad. ",
+		"prompt": "Can I tell you about the signs of depression?",
+		"keywords": ["yes", "no"],
+		"outlets": ["depression.signs", "whatelse"]
+	},
+	"depression.signs": {
+		"info": "When a person is depressed, he or she has several signs nearly everyday that last at least 2 weeks.\\nUse this list to check off any signs you or a loved one has had for 2 weeks or more:\\n• Increased frustration, irritability or grouchiness\\n• Loss of interest and pleasure in activities you used to enjoy\\n• Feeling sad, blue, empty or down in the dumps\\n• Crying more than usual\\n• Feeling slowed down or restless and unable to sit still\\n• Feeling worthless or guilty\\n• Feeling pessimistic or hopeless\\n• Feeling anxious or worried\\n• Changes in appetite or weight loss or gain\\n• Change in sleep patterns – being unable to sleep or sleeping too much\\n• Problems concentrating, thinking, remembering or making decisions\\n• Withdrawing from people / events you normally enjoy\\n• Loss of energy or feeling tired all of the time.\\n• Sexual problems\\nIf you have any of these signs for more than 2 weeks, or if you have had thoughts of suicide or of trying to harm yourself or others, see your doctor.",
+		"prompt": "Would you like to know what can be done to prevent depression?",
+		"keywords": ["yes", "no"],
+		"outlets": ["depression.prevention", "whatelse"]
+	},
+	"depression.prevention": {
+		"info": "Learn about stroke. Information can help lessen your fears. Talk to your health care professionals about your questions and concerns.\\nMake the most of rehabilitation and keep track of your progress. The more you recover, the better you will feel.\\nSpend time with family and friends. Talk about your feelings.\\nMaintain interests and hobbies.\\nExercise.\\nDo not drink alcohol.\\nTalk to a health care professional as soon as you notice signs of depression.",
+		"prompt": "Do you want to hear about resources for dealing with depression?",
+		"keywords": ["yes", "no"],
+		"outlets": ["depression.resources", "whatelse"]
+	},
+	"depression.resources": {
+		"info": "When you are in the hospital or rehabilitation, talk with a psychologist, social worker, doctor, nurse or therapist. They can provide or recommend help for you. \\nAfter discharge, call your family doctor, social worker or discuss your problems with your neurologist.\\nTreatment for depression includes counseling, medicines or both. If you start medicines for depression, do not stop taking them without talking to your doctor.\\n\\nOther resources\\n• Depression and Bipolar Support Alliance\\n    - 1-800-826-3632\\n    - www.dbsalliance.org\\n    - Information about kinds of depression, treatment, local resources, and online support and discussion boards.\\n• Mental Health America: \\n    - 1-800-969-6642\\n    - www.mentalhealthamerica.net\\n    - Information about the causes and treatment of clinical depression and how to find local resources in your area.\\n• National Institute of Mental Health\\n    - 1-866-615-6464, 1-866-415-8051 (TTY)\\n    - www.nimh.nih.gov\\n    - Information and free booklets on depression and treatment and an interactive mental health services locator. \\n• National Stroke Association\\n    - 1-800-787-6537\\n    - www.stroke.org\\n    - Fact sheet about depression after stroke and support group locator.\\n\\n24 Hour Services\\nNational Suicide Prevention Lifeline: 1-800-273-TALK (8255)\\nNetcare Crisis Hotline: (614) 276-2273\\nNorth Central Mental Health Services,\\nSuicide Prevention 24-hour Hotline: (614) 221-5445",
+		"prompt": "",
+		"keywords": [],
+		"outlets": ["whatelse"]
+	},
+
+
+	"coma": {
+		"info": "Coma means that a person does not respond in an appropriate way to what is around them. There are different levels of coma. In a very deep coma, a person may not respond at all or may react only to pain. A person can not speak and their eyes are closed. In a mild coma, a person may open their eyes, but not recognize things they see. They may move parts of their body, but with little purpose. You may see a person in a coma do some of these things:\\n• Move about in bed and become very restless\\n• Grasp your hand when you hold their hand\\n• Moan for no reason\\n• Move their mouth in a chewing or sucking motion\\n• Stiffen when you touch them",
+		"prompt": "Would you like to know about the causes of coma?",
+		"keywords": ["yes", "no"],
+		"outlets": ["coma.causes", "whatelse"]
+	},
+	"coma.causes": {
+		"info": "Special parts of the brain control a person's ability to wake up and respond. Head injury, trauma, stroke, brain tumors, cardiac arrest or other medical conditions may cause a person to be in a coma.",
+		"prompt": "Want to know how long coma typically lasts?",
+		"keywords": ["yes", "no"],
+		"outlets": ["coma.duration", "whatelse"]
+	},
+	"coma.duration": {
+		"info": "It is difficult to predict how long someone will be in a coma. Coma may last from days to years. Some people may never wake up from a coma, while others only partially recover. In most cases, a person does not suddenly just wake up from coma. It is most often a gradual process. Every person recovers at a different rate. As a person recovers, they may be able to do something one time and not be able to do it the next time. You may see them do some of these things:\\n• Look at you, but not know who you are\\n• Talk to you, but not make sense\\n• Have trouble remembering things\\n• Become more restless, pull at tubes or call out\\n• Look and act confused\\n• Behave differently than before the coma",
+		"prompt": "Can I tell you about the special care that a patient in a coma needs?",
+		"keywords": ["yes", "no"],
+		"outlets": ["coma.care", "whatelse"]
+	},
+	"coma.care": {
+		"info": "When a person is in a coma, they often are very restless and need special care to prevent them from hurting themselves. Nurses will give medicine to help calm a person who is restless. Soft cloth wrist restraints may be put on so they will not pull on tubes or dressings. Side rails on the bed must be kept up to prevent falling.\\nCare will also be done to prevent infections like pneumonia and bedsores. Therapy may be done to keep muscles and joints moving.",
+		"prompt": "Would you like to know what you can do for a person in a coma?",
+		"keywords": ["yes", "no"],
+		"outlets": ["coma.help", "whatelse"]
+	},
+	"coma.help": {
+		"info": "Family and friends are very important to a person in coma. Here are some things you can do:\\n• Talk to the person in a normal tone of voice. You do not need to talk loudly or yell. The person may be able to hear you, but can not respond. Tell them who you are and talk to them about everyday things. Tell them the date and time, the weather, and what things are happening at home. Talk with them about good times and friends and favorite topics such as sports, music or the news.\\n• Touch them. Tell them what you are going to do before you touch them so you will not surprise them. You may hold their hand, comb their hair, wipe their mouth, or help the nurse give them a back rub. Talk with the nurse to find out what you can do. Do not be afraid to touch them. You will not hurt them.\\n• Bring in a MP3 player or a radio for them to listen to. You may bring in recordings of their favorite music, or make your own recording so they may hear you talking to them. Let the nurses know what it is they like to listen to.\\n• Give the nurses a list of the person's favorite TV shows. The nurses will provide the TV for them to listen to or watch.\\n• Explain noises in the unit. The hospital is a new place with many noises that they will not recognize.\\n• Bring in pictures of family and friends. If the person opens their eyes, there will be familiar faces around. Label the pictures with the name of the person in the picture and how they are related. You may also bring in cards and posters.\\n• Bring in their favorite perfume or after shave. These smells are pleasant and familiar to them.\\nDoing these things may help a patient recover from coma. However, if there is too much stimulation, the person may not be able to sort it out. They may react to over stimulation by not responding or by becoming very restless. They may also begin to breathe quickly. The nurse will help you learn when the person has had too much stimulation. When this happens, the stimulation needs to be reduced. Sometimes you may need to leave the room and let the patient rest.",
+		"prompt": "",
+		"keywords": [],
+		"outlets": ["whatelse"]
+	},
+
+
+	"hemorrhagic": {
+		"info": "Hemorrhagic stroke occurs when a blood vessel in the brain breaks causing bleeding into the brain. This causes a loss of oxygen to the tissue of the brain. This type of stroke happens less often than other types of stroke, but it can cause serious injury or death.\\nThe bleeding, also called hemorrhage, during this type of stroke is named based on where the bleeding occurs in the brain.\\n• Intracerebral hemorrhage (ICH) is bleeding within the brain’s tissue\\n• Subarachnoid hemorrhage (SAH) is bleeding around the brain’s surface and into the space between the brain and the skull. ",
+		"prompt": "Would you like to know about the causes of hemorrhagic stroke?",
+		"keywords": ["yes", "no"],
+		"outlets": ["hemorrhagic.causes", "whatelse"]
+	},
+	"hemorrhagic.causes": {
+		"info": "The main causes of this type of stroke are:\\n• High blood pressure\\n• Ruptured aneurysm – a bulging on an artery’s wall in the brain bleeds\\n• Smoking, alcohol and illegal drug use ",
+		"prompt": "Can I tell you about the signs of hemorrhagic stroke?",
+		"keywords": ["yes", "no"],
+		"outlets": ["hemorrhagic.signs", "whatelse"]
+	},
+	"hemorrhagic.signs": {
+		"info": "Signs of this type of stroke may include:\\n• Severe headache – “worst headache of my life”\\n• Neck stiffness\\n• Light sensitivity\\n• Nausea and vomiting\\n• Confusion ",
+		"prompt": "Want to know about treatment for this kind of stroke?",
+		"keywords": ["yes", "no"],
+		"outlets": ["hemorrhagic.treatment", "whatelse"]
+	},
+	"hemorrhagic.treatment": {
+		"info": "Your doctor will use tests such as a computerized tomography (CT) scan or magnetic resonance imaging (MRI). These tests will show the type of stroke and the area of the brain that is affected. Another test called an angiogram may be done. This is an x-ray test that provides a picture of the blood vessels in the brain.\\nYour doctor will talk with you about the best treatment for you, based on where the bleeding is in the brain.\\nFor this type of stroke, you can expect to be in the hospital for at least 14 days. It may be longer based on your response to treatment. ",
+		"prompt": "Would you like to know about the effects of this stroke?",
+		"keywords": ["yes", "no"],
+		"outlets": ["hemorrhagic.effects", "whatelse"]
+	},
+	"hemorrhagic.effects": {
+		"info": "The effects of a stroke depend on the location in the brain and amount of damage to the brain. There may be changes in behavior or in your ability to do daily activities.\\n• Damage to the right side of the brain may cause:\\n    - Loss of movement to the left side of the body called hemiplegia\\n    - Quick and impulsive behavior\\n    - Problems with memory\\n    - Lack of attention to where the left side of the body is positioned (neglect)\\n    - Problems with swallowing\\n    - Problems with remembering how to do daily activities\\n    - Problems with language\\n• Damage to the left side of the brain may cause:\\n    - Loss of movement to the right side of the body called hemiplegia\\n    - Problems with talking and understanding or aphasia \\n    - Slow and cautious behavior\\n    - Problems with remembering how to do daily activities\\n    - Problems with swallowing\\n    - Lack of attention to where the right side of the body is positioned (neglect) ",
+		"prompt": "Would you like to hear about ways to prevent hemorrhagic stroke?",
+		"keywords": ["yes", "no"],
+		"outlets": ["hemorrhagic.prevention", "whatelse"]
+	},
+	"hemorrhagic.prevention" : {
+		"info": "1)Control high blood pressure: Have your blood pressure checked regularly. If it is consistently more than 120/80, talk with your doctor about treatment options.\\n2) Avoid alcohol and drug use: If you drink alcohol, limit your drinks. If you don’t drink, don’t start. Excessive alcohol and drug use increases the risk for hemorrhagic stroke, even in young adults in their 20s or 30s.\\n3)Stop tobacco use: If you smoke or use other tobacco products, you should quit. Limit your time around others who may smoke.\\n4)Manage your blood thinning medicines: Although blood thinning medicines, also known as anticoagulants, may prevent stroke if your blood becomes too thin, you may be at risk for an ICH. Check with your doctor and have your blood work done as ordered to manage your medicines.\\n5)Control blood clotting diseases: If you have any type of blood clotting disease, such as hemophilia or sickle cell anemia, be sure to speak with your doctor. There are ways you can control it to decrease your stroke risk.",
+		"prompt": "",
+		"keywords": [],
+		"outlets": ["whatelse"]
+	}
+
+
+}
