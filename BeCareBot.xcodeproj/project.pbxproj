@@ -9,11 +9,29 @@
 /* Begin PBXBuildFile section */
 		450F21B41F043D4C0054AB16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450F21B31F043D4C0054AB16 /* AppDelegate.swift */; };
 		450F21B61F043D4C0054AB16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450F21B51F043D4C0054AB16 /* ViewController.swift */; };
-		450F21B91F043D4D0054AB16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450F21B71F043D4D0054AB16 /* Main.storyboard */; };
 		450F21BB1F043D4D0054AB16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 450F21BA1F043D4D0054AB16 /* Assets.xcassets */; };
 		450F21BE1F043D4D0054AB16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450F21BC1F043D4D0054AB16 /* LaunchScreen.storyboard */; };
 		450F21C91F043D4D0054AB16 /* BeCareBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450F21C81F043D4D0054AB16 /* BeCareBotTests.swift */; };
 		450F21D41F043D4D0054AB16 /* BeCareBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450F21D31F043D4D0054AB16 /* BeCareBotUITests.swift */; };
+		453ADF471F0FE75C00D4CE07 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453ADF461F0FE75C00D4CE07 /* AVFoundation.framework */; };
+		453DA45B1F2FB7CC004EED83 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4567FB091F2FA76A00EA3314 /* GoogleToolboxForMac.framework */; };
+		455F83E21F1504AD00F75745 /* AboutBeCare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455F83E11F1504AD00F75745 /* AboutBeCare.swift */; };
+		4567FB061F2F6DDF00EA3314 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4567FB051F2F6DDF00EA3314 /* GoogleService-Info.plist */; };
+		4567FB071F2F6DDF00EA3314 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4567FB051F2F6DDF00EA3314 /* GoogleService-Info.plist */; };
+		4567FB081F2F6DDF00EA3314 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4567FB051F2F6DDF00EA3314 /* GoogleService-Info.plist */; };
+		45840DFE1F3220B100517ED8 /* ApiAI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45840DFD1F3220B100517ED8 /* ApiAI.framework */; };
+		45840E061F32286F00517ED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45840E051F32286F00517ED8 /* Main.storyboard */; };
+		45840E071F32286F00517ED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45840E051F32286F00517ED8 /* Main.storyboard */; };
+		45840E081F32286F00517ED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45840E051F32286F00517ED8 /* Main.storyboard */; };
+		459096FF1F31251C009053C5 /* convMapTest0.json in Resources */ = {isa = PBXBuildFile; fileRef = 459096FD1F31251C009053C5 /* convMapTest0.json */; };
+		459097001F31251C009053C5 /* synonyms.json in Resources */ = {isa = PBXBuildFile; fileRef = 459096FE1F31251C009053C5 /* synonyms.json */; };
+		45BFB9481F1658F300A784B7 /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BFB9471F1658F300A784B7 /* FeedbackViewController.swift */; };
+		45D126BE1F28E09100610A29 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D126BD1F28E09100610A29 /* SwiftyJSON.framework */; };
+		45F02CA71F0534AE00C2F66F /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F02CA61F0534AE00C2F66F /* ChatViewController.swift */; };
+		45F02CA91F05392700C2F66F /* ApiAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F02CA81F05392700C2F66F /* ApiAIService.swift */; };
+		45F02CAB1F05396800C2F66F /* ApiAIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F02CAA1F05396800C2F66F /* ApiAIResponse.swift */; };
+		45F9E5021F06F20A00555DC6 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F9E5011F06F20A00555DC6 /* MyCollectionViewCell.swift */; };
+		D112B1A97764CD596159E300 /* Pods_BeCareBot.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7D5608C08BBD39F2B6F330 /* Pods_BeCareBot.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +52,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		332ED13906AC672521276D4D /* Pods-BeCareBot.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeCareBot.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BeCareBot/Pods-BeCareBot.debug.xcconfig"; sourceTree = "<group>"; };
 		450F21B01F043D4C0054AB16 /* BeCareBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeCareBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		450F21B31F043D4C0054AB16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		450F21B51F043D4C0054AB16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		450F21B81F043D4D0054AB16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		450F21BA1F043D4D0054AB16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		450F21BD1F043D4D0054AB16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		450F21BF1F043D4D0054AB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +65,25 @@
 		450F21CF1F043D4D0054AB16 /* BeCareBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeCareBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		450F21D31F043D4D0054AB16 /* BeCareBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeCareBotUITests.swift; sourceTree = "<group>"; };
 		450F21D51F043D4D0054AB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		453ADF461F0FE75C00D4CE07 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		455F83E11F1504AD00F75745 /* AboutBeCare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutBeCare.swift; sourceTree = "<group>"; };
+		4567FB051F2F6DDF00EA3314 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4567FB091F2FA76A00EA3314 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleToolboxForMac.framework; path = "../../../Library/Developer/Xcode/DerivedData/BeCareBot-gmwqhptbxcwerceplyswgqznqkvj/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework"; sourceTree = "<group>"; };
+		4567FB0B1F2FAA0400EA3314 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcher.framework; path = "Pods/../build/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework"; sourceTree = "<group>"; };
+		45840DFD1F3220B100517ED8 /* ApiAI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApiAI.framework; path = "../../../Library/Developer/Xcode/DerivedData/BeCareBot-gmwqhptbxcwerceplyswgqznqkvj/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework"; sourceTree = "<group>"; };
+		45840E051F32286F00517ED8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		459096FD1F31251C009053C5 /* convMapTest0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = convMapTest0.json; sourceTree = "<group>"; };
+		459096FE1F31251C009053C5 /* synonyms.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = synonyms.json; sourceTree = "<group>"; };
+		45BFB9471F1658F300A784B7 /* FeedbackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		45D126BD1F28E09100610A29 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/BeCareBot-eckxsclmtkuoccguihnapqsmztop/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		45F02CA61F0534AE00C2F66F /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		45F02CA81F05392700C2F66F /* ApiAIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiAIService.swift; sourceTree = "<group>"; };
+		45F02CAA1F05396800C2F66F /* ApiAIResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiAIResponse.swift; sourceTree = "<group>"; };
+		45F9E5011F06F20A00555DC6 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		553D36066E7480333D4F5D38 /* Pods-BeCareBot.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeCareBot.release.xcconfig"; path = "Pods/Target Support Files/Pods-BeCareBot/Pods-BeCareBot.release.xcconfig"; sourceTree = "<group>"; };
+		AA7D5608C08BBD39F2B6F330 /* Pods_BeCareBot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeCareBot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6F9C692C314901291DF8EAE /* Pods_BeCareBotTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeCareBotTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF757AD03A5B7B4E4E996781 /* Pods_BeCareBotUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BeCareBotUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +91,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45840DFE1F3220B100517ED8 /* ApiAI.framework in Frameworks */,
+				453DA45B1F2FB7CC004EED83 /* GoogleToolboxForMac.framework in Frameworks */,
+				45D126BE1F28E09100610A29 /* SwiftyJSON.framework in Frameworks */,
+				453ADF471F0FE75C00D4CE07 /* AVFoundation.framework in Frameworks */,
+				D112B1A97764CD596159E300 /* Pods_BeCareBot.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +123,8 @@
 				450F21C71F043D4D0054AB16 /* BeCareBotTests */,
 				450F21D21F043D4D0054AB16 /* BeCareBotUITests */,
 				450F21B11F043D4C0054AB16 /* Products */,
+				63416F6E7FC64BF9269ECF9E /* Pods */,
+				B6E16D9B28FFE9ABFA2CE78B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +141,21 @@
 		450F21B21F043D4C0054AB16 /* BeCareBot */ = {
 			isa = PBXGroup;
 			children = (
+				459096FD1F31251C009053C5 /* convMapTest0.json */,
+				459096FE1F31251C009053C5 /* synonyms.json */,
 				450F21B31F043D4C0054AB16 /* AppDelegate.swift */,
 				450F21B51F043D4C0054AB16 /* ViewController.swift */,
-				450F21B71F043D4D0054AB16 /* Main.storyboard */,
+				45840E051F32286F00517ED8 /* Main.storyboard */,
+				45BFB9471F1658F300A784B7 /* FeedbackViewController.swift */,
+				455F83E11F1504AD00F75745 /* AboutBeCare.swift */,
+				45F02CA61F0534AE00C2F66F /* ChatViewController.swift */,
+				45F9E5011F06F20A00555DC6 /* MyCollectionViewCell.swift */,
+				45F02CA81F05392700C2F66F /* ApiAIService.swift */,
+				45F02CAA1F05396800C2F66F /* ApiAIResponse.swift */,
 				450F21BA1F043D4D0054AB16 /* Assets.xcassets */,
 				450F21BC1F043D4D0054AB16 /* LaunchScreen.storyboard */,
 				450F21BF1F043D4D0054AB16 /* Info.plist */,
+				4567FB051F2F6DDF00EA3314 /* GoogleService-Info.plist */,
 			);
 			path = BeCareBot;
 			sourceTree = "<group>";
@@ -125,6 +178,30 @@
 			path = BeCareBotUITests;
 			sourceTree = "<group>";
 		};
+		63416F6E7FC64BF9269ECF9E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				332ED13906AC672521276D4D /* Pods-BeCareBot.debug.xcconfig */,
+				553D36066E7480333D4F5D38 /* Pods-BeCareBot.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B6E16D9B28FFE9ABFA2CE78B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45840DFD1F3220B100517ED8 /* ApiAI.framework */,
+				4567FB0B1F2FAA0400EA3314 /* GTMSessionFetcher.framework */,
+				4567FB091F2FA76A00EA3314 /* GoogleToolboxForMac.framework */,
+				45D126BD1F28E09100610A29 /* SwiftyJSON.framework */,
+				453ADF461F0FE75C00D4CE07 /* AVFoundation.framework */,
+				AA7D5608C08BBD39F2B6F330 /* Pods_BeCareBot.framework */,
+				B6F9C692C314901291DF8EAE /* Pods_BeCareBotTests.framework */,
+				DF757AD03A5B7B4E4E996781 /* Pods_BeCareBotUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 450F21D81F043D4D0054AB16 /* Build configuration list for PBXNativeTarget "BeCareBot" */;
 			buildPhases = (
+				E36BC3C253173F1B0C9CEEAE /* [CP] Check Pods Manifest.lock */,
 				450F21AC1F043D4C0054AB16 /* Sources */,
 				450F21AD1F043D4C0054AB16 /* Frameworks */,
 				450F21AE1F043D4C0054AB16 /* Resources */,
+				8D48BD931740BF46A89FA255 /* [CP] Embed Pods Frameworks */,
+				909F14F49A11984343F1F5AF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +273,7 @@
 				TargetAttributes = {
 					450F21AF1F043D4C0054AB16 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6664743G3U;
 						ProvisioningStyle = Automatic;
 					};
 					450F21C31F043D4D0054AB16 = {
@@ -232,9 +313,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45840E061F32286F00517ED8 /* Main.storyboard in Resources */,
+				459097001F31251C009053C5 /* synonyms.json in Resources */,
 				450F21BE1F043D4D0054AB16 /* LaunchScreen.storyboard in Resources */,
+				4567FB061F2F6DDF00EA3314 /* GoogleService-Info.plist in Resources */,
+				459096FF1F31251C009053C5 /* convMapTest0.json in Resources */,
 				450F21BB1F043D4D0054AB16 /* Assets.xcassets in Resources */,
-				450F21B91F043D4D0054AB16 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +326,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4567FB071F2F6DDF00EA3314 /* GoogleService-Info.plist in Resources */,
+				45840E071F32286F00517ED8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +335,60 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4567FB081F2F6DDF00EA3314 /* GoogleService-Info.plist in Resources */,
+				45840E081F32286F00517ED8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8D48BD931740BF46A89FA255 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeCareBot/Pods-BeCareBot-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		909F14F49A11984343F1F5AF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BeCareBot/Pods-BeCareBot-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E36BC3C253173F1B0C9CEEAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		450F21AC1F043D4C0054AB16 /* Sources */ = {
@@ -260,6 +396,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				450F21B61F043D4C0054AB16 /* ViewController.swift in Sources */,
+				455F83E21F1504AD00F75745 /* AboutBeCare.swift in Sources */,
+				45F02CAB1F05396800C2F66F /* ApiAIResponse.swift in Sources */,
+				45BFB9481F1658F300A784B7 /* FeedbackViewController.swift in Sources */,
+				45F9E5021F06F20A00555DC6 /* MyCollectionViewCell.swift in Sources */,
+				45F02CA71F0534AE00C2F66F /* ChatViewController.swift in Sources */,
+				45F02CA91F05392700C2F66F /* ApiAIService.swift in Sources */,
 				450F21B41F043D4C0054AB16 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,14 +438,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		450F21B71F043D4D0054AB16 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				450F21B81F043D4D0054AB16 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		450F21BC1F043D4D0054AB16 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,8 +546,14 @@
 		};
 		450F21D91F043D4D0054AB16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 332ED13906AC672521276D4D /* Pods-BeCareBot.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6664743G3U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/GTMSessionFetcher",
+				);
 				INFOPLIST_FILE = BeCareBot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BeCare.BeCareBot;
@@ -424,8 +564,14 @@
 		};
 		450F21DA1F043D4D0054AB16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 553D36066E7480333D4F5D38 /* Pods-BeCareBot.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6664743G3U;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/GTMSessionFetcher",
+				);
 				INFOPLIST_FILE = BeCareBot/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = BeCare.BeCareBot;
@@ -507,6 +653,7 @@
 				450F21DA1F043D4D0054AB16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		450F21DB1F043D4D0054AB16 /* Build configuration list for PBXNativeTarget "BeCareBotTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +662,7 @@
 				450F21DD1F043D4D0054AB16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		450F21DE1F043D4D0054AB16 /* Build configuration list for PBXNativeTarget "BeCareBotUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +671,7 @@
 				450F21E01F043D4D0054AB16 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

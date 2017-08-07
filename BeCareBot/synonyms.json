@@ -2,6 +2,8 @@
 	"yes": ["yea", "ok", "sure", "please", "of course", "indeed", "yeah", "yup", "si", "oui", "why not", "that would be great", "that'd be great"],
 	"no": ["nope", "nah", "negative", "negatory", "never", "no thanks", "please don't"],
 	"aphasia": ["speech problems", "trouble speaking"],
+	"risk of stroke": ["stroke risk", "risk"],
 	"depression": ["depressed", "depress"],
-	"coma": ["comatose"]
+	"coma": ["comatose"],
+	"hemorrhagic stroke": ["hemorrhagic"]
 }

@@ -7,14 +7,28 @@
 //
 
 import UIKit
+import ApiAI
+import Firebase
+
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    let apiai = ApiAI.shared()!
     var window: UIWindow?
 
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        // Configure api.ai
+        let configuration: AIConfiguration = AIDefaultConfiguration()
+        configuration.clientAccessToken = "45418f830b9d443f84df2aebb766f58e"
+        apiai.configuration = configuration
+
+        // Firebase
+        FirebaseApp.configure()
+        
         // Override point for customization after application launch.
         return true
     }

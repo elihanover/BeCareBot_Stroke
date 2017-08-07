@@ -7,13 +7,22 @@
 //
 
 import UIKit
+import WebKit
 
 class AboutBeCare: UIViewController {
-
+    
+    @IBOutlet weak var tabBar: UINavigationBar!
+    var webView: WKWebView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        webView = WKWebView(frame: CGRect(x: 0.0, y: self.tabBar.frame.maxY, width: view.frame.width, height: view.frame.height - self.tabBar.frame.maxY), configuration: WKWebViewConfiguration())
+        self.view.addSubview(webView)
+        let url = URL(string: "https://www.becarenet.net")!
+        webView.load(URLRequest(url: url))
+        webView.allowsBackForwardNavigationGestures = true
     }
 
     override func didReceiveMemoryWarning() {

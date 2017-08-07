@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+// do I even need this?
+public struct ApiAIResponse {
+    let message: String
+}

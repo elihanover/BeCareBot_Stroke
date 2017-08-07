@@ -1,16 +1,15 @@
 {
-
 	"home": {
 		"info": "",
 		"prompt": "What would you like to know about?",
-		"keywords": ["aphasia", "risk", "depression", "coma"],
-		"outlets": ["aphasia", "stroke_risk", "depression", "coma"]
+		"keywords": ["aphasia", "risk of stroke", "depression", "coma", "hemorrhagic stroke"],
+		"outlets": ["aphasia", "stroke_risk", "depression", "coma", "hemorrhagic"]
 	},
 	"whatelse": {
 		"info": "",
 		"prompt": "What else would you like to know about?",
-		"keywords": ["aphasia", "risk", "depression"],
-		"outlets": ["aphasia", "stroke_risk", "depression"]
+		"keywords": ["aphasia", "risk of stroke", "depression", "coma", "hemorrhagic stroke"],
+		"outlets": ["aphasia", "stroke_risk", "depression", "coma", "hemorrhagic"]
 	},
 
 
@@ -42,7 +41,7 @@
 
 	
 	"stroke_risk": {
-		"info": "Everyone has some stroke risk. Risk factors are traits or life style habits that increase a person's chances of having a stroke. A few stroke risk factors cannot be changed:\\n• Over age 55\\n• Male\\n• African American\\n• Have diabetes\\n• Have a family history of stroke\\nIf you have one of these risk factors, you need to learn about the lifestyle and medical risk factors you can change or control to prevent astroke. ",
+		"info": "Everyone has some stroke risk. Risk factors are traits or life style habits that increase a person's chances of having a stroke. A few stroke risk factors cannot be changed:\\n• Over age 55\\n• Male\\n• African American\\n• Have diabetes\\n• Have a family history of stroke\\nIf you have one of these risk factors, you need to learn about the lifestyle and medical risk factors you can change or control to prevent a stroke. ",
 		"prompt": "Can I tell you about the lifestyle risk factors?",
 		"keywords": ["yes", "no"],
 		"outlets": ["stroke_risk.lifestylerisk", "whatelse"]
