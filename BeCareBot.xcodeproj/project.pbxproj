@@ -13,12 +13,12 @@
 		450F21BE1F043D4D0054AB16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 450F21BC1F043D4D0054AB16 /* LaunchScreen.storyboard */; };
 		450F21C91F043D4D0054AB16 /* BeCareBotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450F21C81F043D4D0054AB16 /* BeCareBotTests.swift */; };
 		450F21D41F043D4D0054AB16 /* BeCareBotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450F21D31F043D4D0054AB16 /* BeCareBotUITests.swift */; };
+		451D3C061F3DE0B800ADEA95 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 451D3C051F3DE0B800ADEA95 /* GoogleService-Info.plist */; };
+		451D3C071F3DE0B800ADEA95 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 451D3C051F3DE0B800ADEA95 /* GoogleService-Info.plist */; };
+		451D3C081F3DE0B800ADEA95 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 451D3C051F3DE0B800ADEA95 /* GoogleService-Info.plist */; };
 		453ADF471F0FE75C00D4CE07 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453ADF461F0FE75C00D4CE07 /* AVFoundation.framework */; };
 		453DA45B1F2FB7CC004EED83 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4567FB091F2FA76A00EA3314 /* GoogleToolboxForMac.framework */; };
 		455F83E21F1504AD00F75745 /* AboutBeCare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455F83E11F1504AD00F75745 /* AboutBeCare.swift */; };
-		4567FB061F2F6DDF00EA3314 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4567FB051F2F6DDF00EA3314 /* GoogleService-Info.plist */; };
-		4567FB071F2F6DDF00EA3314 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4567FB051F2F6DDF00EA3314 /* GoogleService-Info.plist */; };
-		4567FB081F2F6DDF00EA3314 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4567FB051F2F6DDF00EA3314 /* GoogleService-Info.plist */; };
 		45840DFE1F3220B100517ED8 /* ApiAI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45840DFD1F3220B100517ED8 /* ApiAI.framework */; };
 		45840E061F32286F00517ED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45840E051F32286F00517ED8 /* Main.storyboard */; };
 		45840E071F32286F00517ED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45840E051F32286F00517ED8 /* Main.storyboard */; };
@@ -65,9 +65,9 @@
 		450F21CF1F043D4D0054AB16 /* BeCareBotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeCareBotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		450F21D31F043D4D0054AB16 /* BeCareBotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeCareBotUITests.swift; sourceTree = "<group>"; };
 		450F21D51F043D4D0054AB16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		451D3C051F3DE0B800ADEA95 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		453ADF461F0FE75C00D4CE07 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		455F83E11F1504AD00F75745 /* AboutBeCare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutBeCare.swift; sourceTree = "<group>"; };
-		4567FB051F2F6DDF00EA3314 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4567FB091F2FA76A00EA3314 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleToolboxForMac.framework; path = "../../../Library/Developer/Xcode/DerivedData/BeCareBot-gmwqhptbxcwerceplyswgqznqkvj/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/GoogleToolboxForMac.framework"; sourceTree = "<group>"; };
 		4567FB0B1F2FAA0400EA3314 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GTMSessionFetcher.framework; path = "Pods/../build/Debug-iphoneos/GTMSessionFetcher/GTMSessionFetcher.framework"; sourceTree = "<group>"; };
 		45840DFD1F3220B100517ED8 /* ApiAI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApiAI.framework; path = "../../../Library/Developer/Xcode/DerivedData/BeCareBot-gmwqhptbxcwerceplyswgqznqkvj/Build/Products/Debug-iphonesimulator/ApiAI/ApiAI.framework"; sourceTree = "<group>"; };
@@ -155,7 +155,7 @@
 				450F21BA1F043D4D0054AB16 /* Assets.xcassets */,
 				450F21BC1F043D4D0054AB16 /* LaunchScreen.storyboard */,
 				450F21BF1F043D4D0054AB16 /* Info.plist */,
-				4567FB051F2F6DDF00EA3314 /* GoogleService-Info.plist */,
+				451D3C051F3DE0B800ADEA95 /* GoogleService-Info.plist */,
 			);
 			path = BeCareBot;
 			sourceTree = "<group>";
@@ -316,9 +316,9 @@
 				45840E061F32286F00517ED8 /* Main.storyboard in Resources */,
 				459097001F31251C009053C5 /* synonyms.json in Resources */,
 				450F21BE1F043D4D0054AB16 /* LaunchScreen.storyboard in Resources */,
-				4567FB061F2F6DDF00EA3314 /* GoogleService-Info.plist in Resources */,
 				459096FF1F31251C009053C5 /* convMapTest0.json in Resources */,
 				450F21BB1F043D4D0054AB16 /* Assets.xcassets in Resources */,
+				451D3C061F3DE0B800ADEA95 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,8 +326,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4567FB071F2F6DDF00EA3314 /* GoogleService-Info.plist in Resources */,
 				45840E071F32286F00517ED8 /* Main.storyboard in Resources */,
+				451D3C071F3DE0B800ADEA95 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,8 +335,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4567FB081F2F6DDF00EA3314 /* GoogleService-Info.plist in Resources */,
 				45840E081F32286F00517ED8 /* Main.storyboard in Resources */,
+				451D3C081F3DE0B800ADEA95 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
